@@ -1,0 +1,1 @@
+This repo is made while implementing different kinds of RAGs, strating from simple (Naive) RAG.
