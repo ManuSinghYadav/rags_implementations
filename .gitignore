@@ -15,3 +15,6 @@ wheels/
 
 # Vector database
 vdb
+
+# DeepEval
+.deepeval
