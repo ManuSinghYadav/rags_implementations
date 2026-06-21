@@ -1,0 +1,31 @@
+{"question": "What is the main affiliation of the group listed in the document?", "golden_chunk_ids": ["chunk_0"], "retrieved_chunk_ids": ["chunk_0"]}
+{"question": "What are the core features of the Docling package as described in the report?", "golden_chunk_ids": ["chunk_1"], "retrieved_chunk_ids": ["chunk_1"]}
+{"question": "What are some key features of the open-source document conversion tool Docling as described in the text?", "golden_chunk_ids": ["chunk_2"], "retrieved_chunk_ids": ["chunk_2"]}
+{"question": "How can you convert a PDF document to Markdown format using Docling?", "golden_chunk_ids": ["chunk_3"], "retrieved_chunk_ids": ["chunk_3"]}
+{"question": "What are the main steps in Docling's linear pipeline for processing documents?", "golden_chunk_ids": ["chunk_4"], "retrieved_chunk_ids": ["chunk_4"]}
+{"question": "What are the two key requirements that the PDF backend in Docling aims to fulfill?", "golden_chunk_ids": ["chunk_5"], "retrieved_chunk_ids": ["chunk_5"]}
+{"question": "What are the two AI models released by Docling as part of their open-source initiative?", "golden_chunk_ids": ["chunk_6"], "retrieved_chunk_ids": ["chunk_6"]}
+{"question": "What technology does the layout analysis model utilize for inference, and what is the source of its architecture?", "golden_chunk_ids": ["chunk_7"], "retrieved_chunk_ids": ["chunk_7"]}
+{"question": "What are some of the characteristics of tables that the TableFormer model can handle?", "golden_chunk_ids": ["chunk_8"], "retrieved_chunk_ids": ["chunk_8"]}
+{"question": "What OCR library does Docling use in its initial release, and what are some of its characteristics?", "golden_chunk_ids": ["chunk_9"], "retrieved_chunk_ids": ["chunk_9"]}
+{"question": "What does Docling do with its prediction results in the final pipeline stage?", "golden_chunk_ids": ["chunk_10"], "retrieved_chunk_ids": ["chunk_10"]}
+{"question": "What is required of implementations of model classes in Docling in terms of Python interface?", "golden_chunk_ids": ["chunk_11"], "retrieved_chunk_ids": ["chunk_11"]}
+{"question": "What are the two hardware systems used for testing Docling's processing speed, and what software environments do they run?", "golden_chunk_ids": ["chunk_12"], "retrieved_chunk_ids": ["chunk_12"]}
+{"question": "What is the purpose of the open-source package called _quackling_ in relation to Docling?", "golden_chunk_ids": ["chunk_13"], "retrieved_chunk_ids": ["chunk_13"]}
+{"question": "What future models are planned to be added to Docling as mentioned in the text?", "golden_chunk_ids": ["chunk_14"], "retrieved_chunk_ids": ["chunk_14"]}
+{"question": "Which GitHub repository is associated with the EasyOCR tool, and what is its supported language count as of 2024?", "golden_chunk_ids": ["chunk_15"], "retrieved_chunk_ids": ["chunk_9"]}
+{"question": "How many individuals are listed as part of the AI4K Group at IBM Research in Rüschlikon, Switzerland?", "golden_chunk_ids": ["chunk_0"], "retrieved_chunk_ids": ["chunk_0"]}
+{"question": "What is the primary purpose of the _Docling_ package, and what are its key technological features?", "golden_chunk_ids": ["chunk_1"], "retrieved_chunk_ids": ["chunk_1"]}
+{"question": "What are some of the main capabilities of the open-source tool Docling in handling PDF documents?", "golden_chunk_ids": ["chunk_2"], "retrieved_chunk_ids": ["chunk_2"]}
+{"question": "What are the steps to install and begin using Docling for document conversion tasks, and what customization options are available for its processing pipeline?", "golden_chunk_ids": ["chunk_3"], "retrieved_chunk_ids": ["chunk_3"]}
+{"question": "What are the main steps in the process that Docling uses to analyze a document?", "golden_chunk_ids": ["chunk_4"], "retrieved_chunk_ids": ["chunk_4"]}
+{"question": "What are the two main capabilities required in the PDF processing pipeline described, and how does Docling address the challenges faced with third-party libraries?", "golden_chunk_ids": ["chunk_5"], "retrieved_chunk_ids": ["chunk_5"]}
+{"question": "What are the two primary AI models released by Docling for open-source use, and what are their main functions?", "golden_chunk_ids": ["chunk_6"], "retrieved_chunk_ids": ["chunk_6"]}
+{"question": "What is the primary function of the layout analysis model described, and what are some key aspects of its architecture and inference process?", "golden_chunk_ids": ["chunk_7"], "retrieved_chunk_ids": ["chunk_7"]}
+{"question": "What is the primary function of the TableFormer model, and what are some of the complexities it can handle in tables?", "golden_chunk_ids": ["chunk_8"], "retrieved_chunk_ids": ["chunk_8"]}
+{"question": "What is a key challenge associated with using EasyOCR in Docling, and how is the team planning to address this issue?", "golden_chunk_ids": ["chunk_9"], "retrieved_chunk_ids": ["chunk_9"]}
+{"question": "What is the purpose of the post-processing model in the final stage of Docling's pipeline?", "golden_chunk_ids": ["chunk_10"], "retrieved_chunk_ids": ["chunk_10"]}
+{"question": "What is the primary purpose of customizing the model pipeline in Docling, and how can it be achieved?", "golden_chunk_ids": ["chunk_11"], "retrieved_chunk_ids": ["chunk_11"]}
+{"question": "Based on the provided data, how does changing the thread allocation from 4 to 16 affect the processing time, pages per second, and memory usage for the native backend on the Apple M3 Max system?", "golden_chunk_ids": ["chunk_12"], "retrieved_chunk_ids": ["chunk_12"]}
+{"question": "What are some of the downstream applications and uses enabled by Docling's high-quality document conversion capabilities?", "golden_chunk_ids": ["chunk_13"], "retrieved_chunk_ids": ["chunk_13"]}
+{"question": "What future enhancements and contributions are planned for the Docling project, and how does it support community involvement?", "golden_chunk_ids": ["chunk_14"], "retrieved_chunk_ids": ["chunk_14"]}
