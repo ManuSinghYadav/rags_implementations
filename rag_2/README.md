@@ -12,3 +12,7 @@
 1. Introduce **router**, *"If the question is about text, send it to the PDF vector database. If the question involves numbers/math, send it to the Excel SQL database."*
 2. **Text-to-sql:** Instead of row-as-a-string method for excel and storing it in vdb, we'll store in local SQLite, and LLM will write SQL queries to retrieve the data.
 
+##### Findings
+
+1. For excel data, **row-as-a-string** method is extremely bad for multipe chunks, text-to-sql wins.
+
