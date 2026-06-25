@@ -1,2 +1,3 @@
 experiment_name,pdf_parser,splitter,headers_to_split_on,chunk_size,chunk_overlap,embedding_model,embedding_size,top_k,timestamp,ContextualPrecision,ContextualRecall,ContextualRelevancy
 rag_2,pymypdf4llm,MarkdownHeaderTextSplitter,"[('#', 'Header 1'), ('##', 'Header 2'), ('###', 'Header 3')]",,,text-embedding-3-large,3072,3,24/Jun/2026 (06:33 PM),0.842,0.925,0.657
+rag_2 + reranking,pymypdf4llm,MarkdownHeaderTextSplitter,"[('#', 'Header 1'), ('##', 'Header 2'), ('###', 'Header 3')]",,,text-embedding-3-large,3072,15,25/Jun/2026 (05:51 PM),0.932,0.974,0.543
