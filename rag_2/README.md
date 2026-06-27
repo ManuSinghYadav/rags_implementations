@@ -9,12 +9,11 @@
 
 ##### Level up from here
 
-1. Introduce **router**, *"If the question is about text, send it to the PDF vector database. If the question involves numbers/math, send it to the Excel SQL database."*
-2. **Text-to-sql:** Instead of row-as-a-string method for excel and storing it in vdb, we'll store in local SQLite, and LLM will write SQL queries to retrieve the data.
-3. **Chunking strategies:** Fixed length (always use overlap), Recursive, Markdown, Semantic, Hierarchical chunking)
-4. **Embedding strategies:** 
+1. Use **multiple types of data sources**, one book, one research paper, one codebase, one excel.
+2. Use **router**, to see what type of question is it.
+3. **Different chunking strategies** for all: Reseach paper will have **markdown chunking**, book will have **markdown + sementic chunking**, excel will have both row as a string method and **text to sql**.
+4. Explore **metadata tagging**
 
 ##### Findings
 
 1. For excel data, **row-as-a-string** method is extremely bad for multipe chunks, text-to-sql wins.
-
