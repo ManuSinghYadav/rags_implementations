@@ -1,13 +1,9 @@
 from dotenv import load_dotenv
 
-import bm25s
-
 from rag_2.src.ingestion.parsing import parsing_of_docs
 from rag_2.src.ingestion.chunking import chunking_of_pdf, chunking_of_excel
 from rag_2.src.ingestion.embeddings import store_emeddings
-from rag_2.src.config import BM25S_PATH
-
-# Parsing
+from rag_2.src.ingestion.bm25s_indexer import generating_bm25_index
 
 
 def run_ingestion():
@@ -20,11 +16,7 @@ def run_ingestion():
     store_emeddings(pdf_chunks, excel_chunks)
 
     print("Building and saving BM25S index...")
-    corpus_text = [i.page_content for i in pdf_chunks]
-    corpus_tokens = bm25s.tokenize(texts=corpus_text)
-    bm25s_retriever = bm25s.BM25(corpus=pdf_chunks)
-    bm25s_retriever.index(corpus_tokens)
-    bm25s_retriever.save(BM25S_PATH)  # Saving persistently to disk
+    generating_bm25_index(pdf_chunks)
 
     print("Ingestion complete! All database files are safely stored on disk.")
 
