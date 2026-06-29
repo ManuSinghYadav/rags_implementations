@@ -20,6 +20,7 @@ def run_ingestion():
 
     print("Ingestion complete! All database files are safely stored on disk.")
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     load_dotenv(override=True)
     run_ingestion()

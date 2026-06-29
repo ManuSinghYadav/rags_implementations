@@ -1,0 +1,2 @@
+experiment_name,pdf_parser,splitter,headers_to_split_on,chunk_size,chunk_overlap,embedding_model,embedding_size,vdb_top_k,bm25_k,cohere_k,timestamp,Faithfulness,AnswerRelevancy
+rag_2 + cohere_reranking + hybrid + metadata,pymypdf4llm,MarkdownHeaderTextSplitter,"[('#', 'Header 1'), ('##', 'Header 2'), ('###', 'Header 3')]",,,text-embedding-3-large,3072,10,10,3,29/Jun/2026 (05:14 PM),0.934,0.965

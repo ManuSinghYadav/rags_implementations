@@ -7,7 +7,7 @@ def generating_bm25_index(chunks):
     dict_corpus = [
         {
             "text": doc.page_content,
-            "metadata": doc.metadata  # Keeps your chunk_id and file_type intact
+            "metadata": doc.metadata,  # Keeps your chunk_id and file_type intact
         }
         for doc in chunks
     ]
